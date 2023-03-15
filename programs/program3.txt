@@ -1,0 +1,6 @@
+Xp :- p
+q :- Gp
+s :- p, q
+Xs :- s
+t :- s, s
+u :- t, s
