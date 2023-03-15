@@ -1,0 +1,20 @@
+p8 :- p3, p9
+p2 :- p5, p6
+p5 :- p3, p9
+Gp8 :- p6
+Xp7 :- p2
+Xp8 :- p4
+Xp4 :- p5
+p0 :- Xp1
+p2 :- Xp4
+Xp3 :- p6
+p9 :- p5, p5
+p7 :- Xp7
+p5 :- p3, p0
+p2 :- Xp4
+Gp2 :- p7
+p4 :- p7, p0
+p1 :- Xp8
+p3 :- p0, p6
+Gp2 :- p9
+p2 :- p4, p3

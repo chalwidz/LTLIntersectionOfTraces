@@ -1,0 +1,10 @@
+p2 :- Xp1
+p2 :- Xp4
+p0 :- Xp3
+p2 :- Xp2
+Gp0 :- p1
+Xp1 :- p0
+Gp1 :- p2
+p1 :- p2, p3
+Gp1 :- p2
+p4 :- Xp4

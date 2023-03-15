@@ -1,0 +1,18 @@
+Xp7 :- p5
+p7 :- p1, p9
+p1 :- Xp4
+p9 :- p6, p8
+Xp1 :- p7
+Gp3 :- p9
+Gp3 :- p0
+Gp3 :- p5
+p2 :- Xp0
+p7 :- Xp1
+p3 :- p7, p5
+Gp5 :- p4
+Xp0 :- p1
+Gp0 :- p8
+p4 :- p6, p1
+p2 :- p4, p0
+Gp3 :- p2
+p7 :- p5, p4
